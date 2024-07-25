@@ -66,6 +66,7 @@ function App() {
           <th>Won Oscar</th>
           <th>Actions</th>
         </tr>
+        <tbody>
         {contacts.map((oneContact)=>{
           return (
             <tr key={oneContact._id}>
@@ -78,6 +79,7 @@ function App() {
             </tr>
           )
         })}
+        </tbody>
       </table>
     </div>
   );
